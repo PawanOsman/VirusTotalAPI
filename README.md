@@ -1,11 +1,11 @@
 
 # VirusTotal API
 
-The VirusTotal API allows you to search for URLs, IP addresses, domains, or file hashes in the VirusTotal database and get the results as a JSON response.
+The VirusTotal API allows you to search for file hashes in the VirusTotal database and get the results as a JSON response.
 
 ## Usage
 
-To use the VirusTotal API, send a GET request to the following URL, replacing `QUERY` with the URL, IP address, domain, or file hash you want to search for:
+To use the VirusTotal API, send a GET request to the following URL, replacing `QUERY` with the file hash you want to search for:
 
 `https://api.pawan.krd/security/virustotal?q=QUERY` 
 
